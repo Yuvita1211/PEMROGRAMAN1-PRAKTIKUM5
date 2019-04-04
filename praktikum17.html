@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>praktikum 17 : mengghapus element dengan jquery</title>
+        <script type="text/javascript" src="asset/asset/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="assset/asset/css/style1.css">
+    </head>
+    <body>
+        <h1>remove function jquery</h1>
+        <button class="tombol">Tombol</button>
+        <div class="kotak">
+            <span>its a box</span>
+        </div>
+
+    </body>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.tombol').click(function(){
+            $('.kotak').remove();
+        });
+    });
+    </script>
+</html>
